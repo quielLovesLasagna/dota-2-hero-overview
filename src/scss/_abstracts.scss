@@ -1,0 +1,38 @@
+@font-face {
+	font-family: "Albertus";
+	src: url("../../assets/fonts/Albertus-Medium/Albertus\ Medium\ Regular\ font.ttf")
+		format("truetype");
+}
+
+@font-face {
+	font-family: "Radiance";
+	src: url("../../assets/fonts/Radiance-SemiBold/Radiance-SemiBold.otf")
+		format("opentype");
+}
+
+// COLOR
+$cl-white: #ffffff;
+$cl-black: #000000;
+
+// FONT-FAMILY
+$ff-albertus: "Albertus", serif;
+$ff-radiance: "Radiance", serif;
+
+// FUNCTION
+@function toRem($size) {
+	$remSize: calc($size / 16px);
+	@return #{$remSize}rem;
+}
+
+// MIXIN
+@mixin makeHidden {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+@mixin makeVisible {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+}

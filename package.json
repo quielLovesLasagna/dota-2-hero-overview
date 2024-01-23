@@ -1,0 +1,17 @@
+{
+	"name": "dota-2-hero-overview",
+	"version": "1.0.0",
+	"description": "",
+	"main": "",
+	"scripts": {
+		"start": "parcel src/index.html",
+		"build": "parcel build src/index.html"
+	},
+	"keywords": [],
+	"author": "Exequiel",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.5",
+		"sass": "^1.70.0"
+	}
+}
