@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: []()
+- Live Site URL: [https://quiel-dota-2-hero-overview.netlify.app/](https://quiel-dota-2-hero-overview.netlify.app/)
 
 ## My process
 
